@@ -63,7 +63,8 @@ class Jeu
   def afficher_message_fin(etat_du_jeu)
     sleep(1)
     if (etat_du_jeu == 1)
-      puts "Bien joue au joueur #{@gagnant.name}"
+      puts "Bien joue au joueur 
+      \n\n            🔥🔥#{@gagnant.name}🔥🔥\n"
     elsif (etat_du_jeu == 2)
         puts "Ceci est un match nul !"
     end
