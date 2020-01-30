@@ -2,6 +2,7 @@ Ce morpion est l'occasion d'appliquer ce que j'ai appris en programmation objet,
 
 
 Il est organise de la maniere suivante :
+```
   app.rb
   /lib/
     jeu.rb
@@ -10,6 +11,7 @@ Il est organise de la maniere suivante :
   /spec/
     morpion_spec.rb
     spec_helper.rb
+```
 
 Le fichier app.rb permet de lancer le programme. Il contient une boucle utilisant la classe jeu.
 
